@@ -20,8 +20,17 @@ class Program
             case "3":
                 Ex03.Run();
                 break;
-             case "4":
+            case "4":
                 Ex04.Run();
+                break;
+            case "5":
+                Ex05.Run();
+                break;
+            case "6":
+                Ex06.Run();
+                break;
+            case "7":
+                Ex07.Run();
                 break;
             default:
                 Console.WriteLine("Exercício não encontrado.");
