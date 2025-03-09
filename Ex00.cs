@@ -1,0 +1,32 @@
+﻿// Ex00: Arquivo inicial.
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Qual exercício deseja rodar? (Ex: 1, 2, 3...)");
+        string? input = Console.ReadLine();
+
+        switch (input)
+        {
+            case "1":
+                Ex01.Run();
+                break;
+            case "2":
+                Ex02.Run();
+                break;
+            case "3":
+                Ex03.Run();
+                break;
+            default:
+                Console.WriteLine("Exercício não encontrado.");
+                break;
+        }
+    }
+}
+
+// NOTA I: O "Main" é o primeiro método que é executado quando o programa é rodado.
+
+// NOTA II: O " public static void Run()" é um método que executa o código do exercício.
