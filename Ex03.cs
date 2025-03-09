@@ -1,28 +1,33 @@
 // Exercício 3: Requere um texto ao usuário. Converte para número e verifica se é par ou ímpar.
 
-class Ex03 {
-
+class Ex03 
+{
     public static void Run()
     {
-
         Console.WriteLine("Digite um número:");
         string? input = Console.ReadLine();
 
-        if (input != null) {
+        if (input != null) 
+        {
             int num = int.Parse(input);
 
 
-            if (num % 2 == 0) {
+            if (num % 2 == 0) 
+            {
                 Console.WriteLine(num + " é par");
-            } else {
+            } 
+
+            else 
+            {
                 Console.WriteLine(num + " é ímpar");
             }
-        } else {
-
+        } 
+        
+        else 
+        {
             Console.WriteLine("Entrada inválida.");
         }
     }
-
 }
 
 // NOTA I: O "Console.ReadLine" solicita um dado ao usuário e o armazena em uma variável
