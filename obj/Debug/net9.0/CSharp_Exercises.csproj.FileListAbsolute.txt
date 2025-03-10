@@ -26,3 +26,4 @@ C:\Users\Gabriel\Desktop\Studies\CSharp_Exercises\CSharp_Exercises\obj\Debug\net
 C:\Users\Gabriel\Desktop\Studies\CSharp_Exercises\CSharp_Exercises\obj\Debug\net9.0\CSharp_Exercises.pdb
 C:\Users\Gabriel\Desktop\Studies\CSharp_Exercises\CSharp_Exercises\obj\Debug\net9.0\CSharp_Exercises.genruntimeconfig.cache
 C:\Users\Gabriel\Desktop\Studies\CSharp_Exercises\CSharp_Exercises\obj\Debug\net9.0\ref\CSharp_Exercises.dll
+C:\Users\Gabriel\Desktop\Studies\CSharp_Exercises\CSharp_Exercises\obj\Debug\net9.0\CSharp_Exercises.sourcelink.json
