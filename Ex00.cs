@@ -41,6 +41,9 @@ class Program
             case "10":
                 Ex10.Run();
                 break;
+            case "11":
+                Ex11.Run();
+                break;
             default:
                 Console.WriteLine("Exercício não encontrado.");
                 break;
