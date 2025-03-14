@@ -1,0 +1,69 @@
+1 - Classe (class Ex01):
+
+    Uma classe é como um molde ou uma planta que define como os objetos (instâncias) dessa classe serão. 
+    Ela pode conter métodos (funções) e propriedades (dados).
+    Exemplo: Pense em uma classe como uma planta de uma casa. A planta define como a casa será construída, mas não é a casa em si.
+----------------------------------------------------------------------------------------------------------------------------------------
+2 - Método Público e Estático (public static void Run()):
+
+    public: Significa que o método pode ser acessado de fora da classe. Outros códigos podem chamar este método.
+
+    static: Significa que o método pertence à classe e não a uma instância específica da classe. Você pode chamar este 
+    método sem criar um objeto da classe Ex01.
+
+    Exemplo: Se você tem uma classe Calculadora com um método estático Somar, você pode chamar Calculadora.Somar(2, 3) diretamente, sem 
+    precisar criar um objeto Calculadora.
+
+    void: Significa que o método não retorna nenhum valor. Ele executa uma ação, mas não fornece um resultado de volta.
+----------------------------------------------------------------------------------------------------------------------------------------
+3 - Instância de Classe:
+
+    Uma instância de classe é um objeto criado a partir de uma classe. Cada instância pode ter seus próprios dados.
+    Exemplo: Se Casa é uma classe, então minhaCasa e suaCasa são instâncias dessa classe. Cada uma pode ter diferentes cores, tamanhos, etc.
+----------------------------------------------------------------------------------------------------------------------------------------
+4 - Métodos e Dados:
+
+    Métodos são funções definidas dentro de uma classe que podem realizar ações.
+    Dados (ou propriedades) são variáveis definidas dentro de uma classe que armazenam informações sobre a instância.
+    Exemplo: Na classe Casa, um método pode ser AbrirPorta() e uma propriedade pode ser Cor.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+class Calculadora
+{
+    // Método estático: pode ser chamado sem criar uma instância da classe.
+    public static int Somar(int a, int b)
+    {
+        return a + b;
+    }
+
+    // Método não estático: requer uma instância da classe para ser chamado.
+    public int Multiplicar(int a, int b)
+    {
+        return a * b;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Chamando o método estático diretamente pela classe.
+        int resultadoSoma = Calculadora.Somar(2, 3);
+        Console.WriteLine("Resultado da Soma: " + resultadoSoma);
+
+        // Criando uma instância da classe Calculadora.
+        Calculadora calc = new Calculadora();
+
+        // Chamando o método não estático pela instância da classe.
+        int resultadoMultiplicacao = calc.Multiplicar(2, 3);
+        Console.WriteLine("Resultado da Multiplicação: " + resultadoMultiplicacao);
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Neste exemplo:
+
+* Calculadora.Somar(2, 3) chama o método estático Somar diretamente pela classe Calculadora.
+* calc.Multiplicar(2, 3) chama o método não estático Multiplicar pela instância calc da classe Calculadora.
