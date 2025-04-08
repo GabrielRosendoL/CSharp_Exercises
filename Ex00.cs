@@ -41,6 +41,9 @@ class Program
             case "10":
                 Ex10.Run();
                 break;
+                case "11":
+                Ex11.Run();
+                break;
             default:
                 Console.WriteLine("Exercício não encontrado.");
                 break;
@@ -51,3 +54,6 @@ class Program
 // NOTA I: O "Main" é o primeiro método que é executado quando o programa é rodado.
 
 // NOTA II: O " public static void Run()" é um método que executa o código do exercício.
+
+// NOTA III Para rodar esse código no terminal executamos o comando "dotnet run".
+// O comando "dotnet run" compila e executa o código C# no terminal.
