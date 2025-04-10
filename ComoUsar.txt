@@ -11,7 +11,10 @@
 
     * Digite '2' para rodar o arquivo Ex00.cs e visualizar os seus exercícios
         Escolha o número correspondente ao arquivo de exercício.
-        Exemplo: Para rodar o Ex02.cs, digite '2'. Para rodar o Ex06.cs, digite '6'.
+        Exemplo: Para rodar o Ex04.cs, digite '2'. Para rodar o Ex08.cs, digite '6'.
+
+        OBS: Como você estará criando seus próprios exercícios, você também deverá criar os cases correspondentes
+        dentro do Ex00.cs. O arquivo já possui o case '1', construa o resto conforme for criando suas atividades.
 
     * Digite '0' para sair do programa
 ----------------------------------------------------------------------------------------------------------------------------------------
