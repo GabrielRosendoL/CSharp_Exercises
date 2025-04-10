@@ -1,7 +1,19 @@
 0 - SOBRE ESSES ARQUIVOS:
 
-    * Execute o arquivo Ex00_Class.cs para rodar exercícios prontos
-    * Execute o arquivo Ex00.cs para rodar exercícios feitos por você
+    * Execute o arquivo Program.cs para escolher o que deseja rodar. Para isso, primeiro abra o terminal
+        dentro da pasta CSharp_Exercises
+    * Digite: 'dotnet run'
+    * Você verá duas opções
+
+    * Digite '1' para rodar o arquivo Ex00_Class.cs e visualizar os exercícios já prontos.
+        Escolha o número correspondente ao arquivo de exercício.
+        Exemplo: Para rodar o Ex02_Class.cs, digite '2'. Para rodar o Ex06_Class.cs, digite '6'.
+
+    * Digite '2' para rodar o arquivo Ex00.cs e visualizar os seus exercícios
+        Escolha o número correspondente ao arquivo de exercício.
+        Exemplo: Para rodar o Ex02.cs, digite '2'. Para rodar o Ex06.cs, digite '6'.
+
+    * Digite '0' para sair do programa
 ----------------------------------------------------------------------------------------------------------------------------------------
 1 - Classe:
 
