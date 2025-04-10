@@ -10,7 +10,7 @@ using System;
 // - Multiplicacao: recebe dois números e retorna a multiplicação
 // - Divisao: recebe dois números e retorna a divisão
 
-class Ex01Class
+class Ex01
 {
     public static void Run()
     {

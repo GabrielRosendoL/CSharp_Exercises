@@ -6,7 +6,7 @@ using System.Collections.Generic;
 // Definição de uma classe chamada 'Ex09'.
 // Uma classe é um contêiner que pode conter métodos, propriedades e outros membros.
 // Classes são fundamentais na programação orientada a objetos.
-class Ex09
+class Ex09_Class
 {
     // Definição de um método estático chamado 'Run'.
     // 'public' significa que o método pode ser acessado de fora da classe.

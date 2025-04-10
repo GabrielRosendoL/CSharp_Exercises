@@ -37,7 +37,7 @@ class Contato
 
 // Classe principal do exercício
 // Esta classe contém a lógica principal do programa e gerencia a agenda de contatos
-class Ex10
+class Ex10_Class
 {
     // Lista estática para armazenar os contatos
     // O modificador 'private' indica que só pode ser acessada dentro desta classe

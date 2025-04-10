@@ -3,7 +3,7 @@
 // Definição de uma classe chamada 'Ex08'.
 // Uma classe é um contêiner que pode conter métodos, propriedades e outros membros.
 // Classes são fundamentais na programação orientada a objetos.
-class Ex08
+class Ex08_Class
 {
     // Definição de um método estático chamado 'Run'.
     // 'public' significa que o método pode ser acessado de fora da classe.

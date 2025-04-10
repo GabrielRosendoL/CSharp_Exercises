@@ -2,9 +2,9 @@
 
 using System;
 
-class Program
+class Ex00_Class
 {
-    static void Main(string[] args)
+     public static void Run()
     {
         Console.WriteLine("Qual exercício deseja rodar? (Ex: 1, 2, 3...)");
         string? input = Console.ReadLine();
