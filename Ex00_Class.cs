@@ -12,37 +12,34 @@ class Program
         switch (input)
         {
             case "1":
-                Ex01.Run();
+                Ex01_Class.Run();
                 break;
             case "2":
-                Ex02.Run();
+                Ex02_Class.Run();
                 break;
             case "3":
-                Ex03.Run();
+                Ex03_Class.Run();
                 break;
             case "4":
-                Ex04.Run();
+                Ex04_Class.Run();
                 break;
             case "5":
-                Ex05.Run();
+                Ex05_Class.Run();
                 break;
             case "6":
-                Ex06.Run();
+                Ex06_Class.Run();
                 break;
             case "7":
-                Ex07.Run();
+                Ex07_Class.Run();
                 break;
             case "8":
-                Ex08.Run();
+                Ex08_Class.Run();
                 break;
             case "9":
-                Ex09.Run();
+                Ex09_Class.Run();
                 break;
             case "10":
-                Ex10.Run();
-                break;
-                case "11":
-                Ex11.Run();
+                Ex10_Class.Run();
                 break;
             default:
                 Console.WriteLine("Exercício não encontrado.");

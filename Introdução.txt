@@ -1,4 +1,9 @@
-1 - Classe (class Ex01):
+0 - SOBRE ESSES ARQUIVOS:
+
+    * Execute o arquivo Ex00_Class.cs para rodar exercícios prontos
+    * Execute o arquivo Ex00.cs para rodar exercícios feitos por você
+----------------------------------------------------------------------------------------------------------------------------------------
+1 - Classe:
 
     Uma classe é como um molde ou uma planta que define como os objetos (instâncias) dessa classe serão. 
     Ela pode conter métodos (funções) e propriedades (dados).
